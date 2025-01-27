@@ -26,8 +26,8 @@ except Exception as e:
     model = None
 
 # API Keys
-GOOGLE_MAPS_API_KEY = "AIzaSyDZSef6qd5iAIrL-vEZwKMiVm79-f6ZxZY"
-OPENWEATHER_API_KEY = "264c8849e945f6a3164acba83870b513"
+GOOGLE_MAPS_API_KEY = "use your api key"
+OPENWEATHER_API_KEY = "use your api key"
 
 # Initialize Google Maps Client
 gmaps = googlemaps.Client(key=GOOGLE_MAPS_API_KEY)
