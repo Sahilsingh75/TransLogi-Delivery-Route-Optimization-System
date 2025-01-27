@@ -21,32 +21,20 @@ This system is designed to:
 - Provide a dashboard for real-time monitoring.
 
 ## Project Structure
-translogi_delivery_optimization/
-├── app/
-│   ├── data_collection.py
-│   ├── gui.py
-│   ├── main.py
-│   └── model_training.py
-├── data/
-│   ├── combined_delhi_delivery_data.csv
-│   ├── delhi_places.csv
-│   ├── simulated_delivery_data.csv
-│   ├── simulated_traffic_data.csv
-│   └── simulated_weather_data.csv
-├── img/
-│   ├── gui_screenshot1.png
-│   └── gui_screenshot2.png
-├── model/
-│   └── delhi_delivery_time_model.pkl (Model needs to be downloaded separately)
-├── notebooks/
-│   ├── data_collection.ipynb
-│   ├── gui.ipynb
-│   ├── main.ipynb
-│   └── model_training.ipynb
-├── model_download_instructions.txt
-├── .gitignore
-├── requirements.txt
-└── README.md
+  translogi_delivery_optimization/
+  ├── app/
+  │   ├── data_collection.py        # Simulates and collects data
+  │   ├── gui.py                    # GUI for visualization
+  │   ├── main.py                   # FastAPI backend
+  │   └── model_training.py         # Machine learning model training
+  ├── data/                         # Contains datasets
+  ├── img/                          # Contains images/screenshots
+  ├── model/                        # Pre-trained model files
+  ├── notebooks/                    # Jupyter Notebooks for development
+  ├── requirements.txt              # Python dependencies
+  ├── .gitignore                    # Ignored files
+  └── README.md                     # Project documentation
+
 
 
 ## Setup
