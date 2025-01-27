@@ -28,11 +28,22 @@ This system is designed to:
   │   ├── main.py                   # FastAPI backend
   │   └── model_training.py         # Machine learning model training
   ├── data/                         # Contains datasets
+  │   ├── combined_delhi_delivery_data.csv
+  │   ├── delhi_places.csv
+  │   ├── simulated_delivery_data.csv
+  │   ├── simulated_traffic_data.csv
+  │   └── simulated_weather_data.csv
   ├── img/                          # Contains images/screenshots
+  │   ├── gui_screenshot1.png
+  │   └── gui_screenshot2.png
   ├── model/                        # Pre-trained model files
+  │   └── delhi_delivery_time_model.pkl (Model needs to be downloaded separately)
   ├── notebooks/                    # Jupyter Notebooks for development
+  │   ├── data_collection.ipynb
+  │   ├── gui.ipynb
+  │   ├── main.ipynb
+  │   └── model_training.ipynb
   ├── requirements.txt              # Python dependencies
-  ├── .gitignore                    # Ignored files
   └── README.md                     # Project documentation
   ```
 
