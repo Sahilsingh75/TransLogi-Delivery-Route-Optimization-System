@@ -21,7 +21,7 @@ This system is designed to:
 - Provide a dashboard for real-time monitoring.
 
 ## Project Structure
-  translogi_delivery_optimization/
+  ```translogi_delivery_optimization/
   ├── app/
   │   ├── data_collection.py        # Simulates and collects data
   │   ├── gui.py                    # GUI for visualization
@@ -34,7 +34,7 @@ This system is designed to:
   ├── requirements.txt              # Python dependencies
   ├── .gitignore                    # Ignored files
   └── README.md                     # Project documentation
-
+  ```
 
 
 ## Setup
