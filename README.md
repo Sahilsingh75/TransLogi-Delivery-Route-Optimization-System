@@ -61,7 +61,7 @@ This system is designed to:
 1. **Clone the Repository**:
 
    ```bash
-   git clone https://github.com/yourusername/translogi_delivery_optimization.git
+   git clone https://github.com/Sahilsingh75/TransLogi-Delivery-Route-Optimization-System.git
    cd translogi_delivery_optimization
    ```
 2. **Install Dependencies**:
